@@ -19,10 +19,15 @@ deleteType：是否压缩后删除文件,针对js\css有效
 Monitoring.init("min", "(.*/common/.*)|(.*\\\\common\\\\.*)");
 		Monitoring.startFullCompress(true);
 		Monitoring.startWatchJsCssScss(true);
-    
-    要求：jdk:1.8  
-    1.7没有测试
-    
-    可在测试环境使用1.8，真实环境关闭压缩
+		
+		
+如需使用scss压缩，请先安装scss，请参考安装地址：http://www.w3cplus.com/sassguide/install.html
 
-如有问题可邮件:leiyang_4050@qq.com
+要求：jdk:1.8  
+1.7没有测试
+    
+可在测试环境使用1.8，真实环境关闭压缩
+
+如有问题或者建议可邮件:leiyang_4050@qq.com
+
+简单集成一起，忘勿喷，很实用
